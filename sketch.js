@@ -14,17 +14,17 @@ var score=0;
 var gameOver, restart;
 
 function preload(){
-  kangaroo_running =   loadAnimation("../images/kangaroo1.png","../images/kangaroo2.png","../images/kangaroo3.png");
-  kangaroo_collided = loadAnimation("../images/kangaroo1.png");
-  jungleImage = loadImage("../images/bg.png");
-  shrub1 = loadImage("../images/shrub1.png");
-  shrub2 = loadImage("../images/shrub2.png");
-  shrub3 = loadImage("../images/shrub3.png");
-  obstacle1 = loadImage("../images/stone.png");
-  gameOverImg = loadImage("../images/gameOver.png");
-  restartImg = loadImage("../images/restart.png");
-  jumpSound = loadSound("../images/jump.wav");
-  collidedSound = loadSound("../images/collided.wav");
+  kangaroo_running =   loadAnimation("images/kangaroo1.png","images/kangaroo2.png","images/kangaroo3.png");
+  kangaroo_collided = loadAnimation("images/kangaroo1.png");
+  jungleImage = loadImage("images/bg.png");
+  shrub1 = loadImage("images/shrub1.png");
+  shrub2 = loadImage("images/shrub2.png");
+  shrub3 = loadImage("images/shrub3.png");
+  obstacle1 = loadImage("images/stone.png");
+  gameOverImg = loadImage("images/gameOver.png");
+  restartImg = loadImage("images/restart.png");
+  jumpSound = loadSound("images/jump.wav");
+  collidedSound = loadSound("images/collided.wav");
 }
 
 function setup() {
